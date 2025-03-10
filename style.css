@@ -1,0 +1,179 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.main-container {
+    width: 90%;
+    max-width: 800px;
+    min-height: 50vh;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.title h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.title h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.title h3 {
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+.window {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.sales-container {
+    width: 70%;
+    max-width: 500px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sales {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input input {
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.input h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.total-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+button {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    min-width: 150px; 
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#cancel {
+    background-color: red;
+    color: white;
+}
+
+#pay {
+    background-color: green;
+    color: white;
+}
+
+
+.recepit-container {
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.recepit {
+    background: #FF8300;
+    height: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 70%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+}
+
+.recepit-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recepit-item {
+    margin: auto auto;
+    width: 90%;
+    height: 70px;
+    padding: 10px;
+    background: white;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recepit-item h2 {
+    font-size: 20px;
+}
+
+.recepit-item h3 {
+    font-size: 16px;
+}

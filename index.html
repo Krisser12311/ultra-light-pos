@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini mini POS</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="title">
+            <h1>Mini mini POS</h1>
+            <h2>By Krisser12311</h2>
+            <h3 id="time"></h3>
+        </div>
+        <div class="window">
+            <div class="sales-container">
+                <div class="sales">
+                    <div class="input">
+                        <h1>Scan a Barcode:</h1>
+                        <input type="text" id="barcode" placeholder="Stregkode" autofocus>
+                    </div>
+                    <div class="total-container">
+                        <h1>Amount of items: <span id="items-total">0</span></h1>
+                        <h1>Total price: <span id="total-price">0</span> kr.</h1>
+                    </div>
+                    <div class="buttons">
+                        <button onclick="clearBasket()" id="cancel">Cancel</button>
+                        <button onclick="pay()" id="pay">Pay</button>
+                    </div>
+                </div>
+            </div>
+            <div class="recepit-container">
+                <div class="recepit">
+                    <h1>Recepit:</h1>
+                    <div class="recepit-items">
+<!--                         <div class="recepit-item">
+                            <h2 id="item-name"></h2>
+                            <h3>Pris: <span item-price></span> DKK</h3>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
